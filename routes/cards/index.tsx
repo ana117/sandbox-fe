@@ -1,9 +1,9 @@
 import { Head } from "$fresh/runtime.ts";
-import Card from "../../components/Card.tsx";
+import Card from "../../components/cards/Card.tsx";
 import CodeBlock from "../../islands/CodeBlock.tsx";
 import Separator from "../../components/Separator.tsx";
 import { generateCodeSnippet } from "../../utils/code_generator.ts";
-import NavCard from "../../components/NavCard.tsx";
+import NavCard from "../../components/cards/NavCard.tsx";
 
 export default function CardsPage() {
   const frontComponent = (
@@ -25,8 +25,8 @@ export default function CardsPage() {
     </div>
   );
 
-  const cardCode = generateCodeSnippet("./components/Card.tsx");
-  const navCardCode = generateCodeSnippet("./components/NavCard.tsx");
+  const cardCode = generateCodeSnippet("./components/cards/Card.tsx");
+  const navCardCode = generateCodeSnippet("./components/cards/NavCard.tsx");
 
   return (
     <>

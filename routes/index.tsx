@@ -1,4 +1,4 @@
-import NavCard from "../components/NavCard.tsx";
+import NavCard from "../components/cards/NavCard.tsx";
 
 export default function Home() {
   return (
