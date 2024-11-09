@@ -32,5 +32,3 @@ jobs:
           project: "sandbox-fe"
           entrypoint: "main.ts"
           root: "."
-          
-          

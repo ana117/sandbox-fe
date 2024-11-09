@@ -13,11 +13,17 @@ export default function ThemeToggler() {
 
   return (
     <button className="relative block group" onClick={toggleTheme}>
-      {theme === "dark" ? (
-        <Sun className={"w-10 h-10 fill-primary opacity-50 group-hover:opacity-100"} />
-      ) : (
-        <Moon className={"w-10 h-10 fill-primary opacity-50 group-hover:opacity-100"} />
-      )}
+      {theme === "dark"
+        ? (
+          <Sun
+            className={"w-10 h-10 fill-primary opacity-50 group-hover:opacity-100"}
+          />
+        )
+        : (
+          <Moon
+            className={"w-10 h-10 fill-primary opacity-50 group-hover:opacity-100"}
+          />
+        )}
     </button>
   );
 }
