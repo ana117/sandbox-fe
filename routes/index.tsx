@@ -9,6 +9,13 @@ export default function Home() {
         description="Various card components"
         image="cards.jpg"
       />
+
+      <NavCard
+        url="/masonry"
+        title="Masonry"
+        description="Masonry layout"
+        image="masonry.jpg"
+      />
     </div>
   );
 }
