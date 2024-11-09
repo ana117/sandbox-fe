@@ -9,10 +9,6 @@ export default function Navbar() {
       >
         Sandbox Frontend Edition
       </a>
-
-      <div className={"absolute top-0 right-4 h-full content-center"}>
-        <ThemeToggler />
-      </div>
     </nav>
   );
 }
