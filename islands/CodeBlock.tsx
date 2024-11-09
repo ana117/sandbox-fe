@@ -1,5 +1,5 @@
 import { useSignal } from "@preact/signals";
-import Copy from "../components/Icons.tsx";
+import { Copy } from "../components/Icons.tsx";
 
 export default function CodeBlock(props: Readonly<{ code: string }>) {
   const clickedState = useSignal(false);
