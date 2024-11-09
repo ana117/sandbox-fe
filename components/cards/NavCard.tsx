@@ -10,8 +10,8 @@ export default function NavCard(
       href={props.url}
       className="flex flex-col items-center justify-center gap-4 p-4 h-full bg-primary rounded-lg"
     >
-      <h3 className="text-lg font-semibold">{props.title}</h3>
-      <p className="text-sm">{props.description}</p>
+      <h3 className="text-lg font-semibold text-white">{props.title}</h3>
+      <p className="text-sm text-white">{props.description}</p>
     </a>
   );
 
@@ -29,8 +29,8 @@ export default function NavCard(
             className="w-full h-full object-cover rounded-lg"
           />
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-background from-5% flex items-end justify-center p-2">
-          <h3 className="text-lg font-bold text-white">{props.title}</h3>
+        <div className="absolute inset-0 bg-gradient-to-t from-background from-5% flex items-end justify-center p-2 rounded-md">
+          <h3 className="text-lg font-bold text-primary">{props.title}</h3>
         </div>
       </a>
     );

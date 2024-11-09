@@ -7,19 +7,19 @@ import NavCard from "../../components/cards/NavCard.tsx";
 
 export default function CardsPage() {
   const frontComponent = (
-    <div className="h-full w-full p-4 flex flex-col gap-2 bg-primary rounded-lg">
+    <div className="h-full w-full p-4 flex flex-col gap-2 bg-primary rounded-lg text-white">
       <h3>Front</h3>
       <p>This is the front of the card</p>
     </div>
   );
   const backComponent = (
-    <div className="h-full w-full p-4 flex flex-col gap-2 bg-primary rounded-lg">
+    <div className="h-full w-full p-4 flex flex-col gap-2 bg-primary rounded-lg text-white">
       <h3>Back</h3>
       <p>This is the back of the card</p>
     </div>
   );
   const oneComponentOnly = (
-    <div className="h-full w-full p-4 flex flex-col gap-2 bg-primary rounded-lg">
+    <div className="h-full w-full p-4 flex flex-col gap-2 bg-primary rounded-lg text-white">
       <h3>Single Component</h3>
       <p>This card only has one component</p>
     </div>
