@@ -9,6 +9,7 @@ import * as $cards_index from "./routes/cards/index.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $masonry_index from "./routes/masonry/index.tsx";
 import * as $CodeBlock from "./islands/CodeBlock.tsx";
+import * as $ThemeToggler from "./islands/ThemeToggler.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -22,6 +23,7 @@ const manifest = {
   },
   islands: {
     "./islands/CodeBlock.tsx": $CodeBlock,
+    "./islands/ThemeToggler.tsx": $ThemeToggler,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;
