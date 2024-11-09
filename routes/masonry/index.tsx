@@ -6,31 +6,31 @@ import { generateCodeSnippet } from "../../utils/code_generator.ts";
 
 export default function MasonryPage() {
   const childrens = [
-    <div className="bg-primary p-4 rounded-lg row-span-5">
+    <div className="text-white bg-primary p-4 rounded-lg row-span-5">
       <h3 className="text-lg font-semibold">Card 1</h3>
       <p>This is the first card</p>
     </div>,
-    <div className="bg-primary p-4 rounded-lg row-span-9">
+    <div className="text-white bg-primary p-4 rounded-lg row-span-9">
       <h3 className="text-lg font-semibold">Card 2</h3>
       <p>This is the second card</p>
     </div>,
-    <div className="bg-primary p-4 rounded-lg row-span-7">
+    <div className="text-white bg-primary p-4 rounded-lg row-span-7">
       <h3 className="text-lg font-semibold">Card 3</h3>
       <p>This is the third card</p>
     </div>,
-    <div className="bg-primary p-4 rounded-lg row-span-8">
+    <div className="text-white bg-primary p-4 rounded-lg row-span-8">
       <h3 className="text-lg font-semibold">Card 4</h3>
       <p>This is the fourth card</p>
     </div>,
-    <div className="bg-primary p-4 rounded-lg row-span-6">
+    <div className="text-white bg-primary p-4 rounded-lg row-span-6">
       <h3 className="text-lg font-semibold">Card 5</h3>
       <p>This is the fifth card</p>
     </div>,
-    <div className="bg-primary p-4 rounded-lg row-span-6">
+    <div className="text-white bg-primary p-4 rounded-lg row-span-6">
       <h3 className="text-lg font-semibold">Card 6</h3>
       <p>This is the sixth card</p>
     </div>,
-    <div className="bg-primary p-4 rounded-lg row-span-10">
+    <div className="text-white bg-primary p-4 rounded-lg row-span-10">
       <h3 className="text-lg font-semibold">Card 7</h3>
       <p>This is the seventh card</p>
     </div>,
